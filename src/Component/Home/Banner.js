@@ -11,13 +11,13 @@ const Banner = () => {
             Hello There!
           </button>
           <div className="py-10">
-            <h1 class="text-4xl font-bold">
+            <h1 class="md:text-4xl text-xl font-bold">
               <TypeAnimation
                 cursor={true}
                 sequence={[
                   "I'm Ripon Hossain Shuvo",
                   1000,
-                  "I'm Front-end Developer",
+                  "I'm Front-End Developer",
                   1000,
                   "Lives in Bangladesh",
                   1000,

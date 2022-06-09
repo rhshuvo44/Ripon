@@ -3,15 +3,15 @@ import me from "../../Images/me.jpg";
 
 const About = () => {
   return (
-    <div class="hero min-h-screen bg-base-200 px-12">
+    <div class="hero min-h-screen bg-base-200 md:px-12">
       <div class="hero-content flex-col lg:flex-row-reverse">
         <img
           src={me}
-          class="max-w-sm rounded-lg shadow-2xl"
+          class="max-w-sm w-full rounded-lg shadow-2xl"
           alt="Ripon Hossain Shuvo"
         />
         <div className="px-10 ">
-          <h1 class="text-5xl font-bold">
+          <h1 class="md:text-5xl font-bold">
             I Am A Front-End Developer <br /> Based In Bangladesh.
           </h1>
           <p class="py-6">
@@ -25,9 +25,9 @@ const About = () => {
             work process, from ideas
           </p>
           <div class="divider"></div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid md:grid-cols-2 gap-4">
             <p>Name : Ripon Hossain Shuvo</p>
-            <p>Email : Ripon Hossain Shuvo</p>
+            <p>Email : rhshuvo44@gmaol.com</p>
             <p>Age : 22</p>
             <p>Adress : Dhaka , Bangladesh</p>
           </div>
