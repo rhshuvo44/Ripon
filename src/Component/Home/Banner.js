@@ -3,8 +3,10 @@ import TypeAnimation from "react-type-animation";
 import "./Banner.css";
 
 const Banner = () => {
+ 
   return (
     <div class="hero min-h-screen banner">
+     
       <div class="hero-content text-center">
         <div class="max-w-lg">
           <button class="btn hover:bg-none bg-transparent px-8 rounded-bl-3xl rounded-tr-3xl capitalize">

@@ -27,7 +27,7 @@ const About = () => {
           <div class="divider"></div>
           <div className="grid md:grid-cols-2 gap-4">
             <p>Name : Ripon Hossain Shuvo</p>
-            <p>Email : rhshuvo44@gmaol.com</p>
+            <p>Email : rhshuvo44@gmail.com</p>
             <p>Age : 22</p>
             <p>Adress : Dhaka , Bangladesh</p>
           </div>
