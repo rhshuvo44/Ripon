@@ -1,18 +1,31 @@
 import React from "react";
+import TypeAnimation from "react-type-animation";
 import "./Banner.css";
 
 const Banner = () => {
   return (
     <div class="hero min-h-screen banner">
       <div class="hero-content text-center">
-        <div class="max-w-md">
+        <div class="max-w-lg">
           <button class="btn hover:bg-none bg-transparent px-8 rounded-bl-3xl rounded-tr-3xl capitalize">
             Hello There!
           </button>
           <div className="py-10">
-            <h1 class="text-4xl font-bold">I'm Ripon Hossain Shuvo</h1>
-            <h1 class="text-4xl font-bold">I'm a Designer</h1>
-            <h1 class="text-4xl font-bold">Lives in Bangladesh</h1>
+            <h1 class="text-4xl font-bold">
+              <TypeAnimation
+                cursor={true}
+                sequence={[
+                  "I'm Ripon Hossain Shuvo",
+                  1000,
+                  "I'm Front-end Developer",
+                  1000,
+                  "Lives in Bangladesh",
+                  1000,
+                ]}
+                wrapper="h2"
+                repeat={Infinity}
+              />
+            </h1>
           </div>
 
           <a
