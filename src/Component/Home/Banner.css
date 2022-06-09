@@ -1,0 +1,10 @@
+.banner {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(9, 26, 24, 0.85)
+    ),
+    url(../../Images/ripon-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
