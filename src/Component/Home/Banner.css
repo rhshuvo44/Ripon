@@ -1,4 +1,4 @@
-.banner {
+/* .banner {
   background: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.4),
@@ -7,4 +7,9 @@
     url(../../Images/ripon-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+} */
+#myVideo {
+  position: static;
+  right: 0;
+  bottom: 0;
 }

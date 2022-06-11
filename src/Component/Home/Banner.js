@@ -1,12 +1,14 @@
 import React from "react";
 import TypeAnimation from "react-type-animation";
+import bg from "../../Images/bg.mp4";
 import "./Banner.css";
 
 const Banner = () => {
- 
   return (
     <div class="hero min-h-screen banner">
-     
+      <video autoplay loop id="myVideo">
+        <source src={bg} type="video/mp4" />
+      </video>
       <div class="hero-content text-center">
         <div class="max-w-lg">
           <button class="btn hover:bg-none bg-transparent px-8 rounded-bl-3xl rounded-tr-3xl capitalize">
