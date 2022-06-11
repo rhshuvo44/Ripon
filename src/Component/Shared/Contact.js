@@ -10,7 +10,6 @@ const Contact = () => {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
-
     emailjs
       .sendForm(
         "service_5f8agpu",
@@ -32,7 +31,7 @@ const Contact = () => {
       );
   };
   return (
-    <div className="p-12">
+    <div className="p-12" id="contact">
       <h1 className="md:text-5xl text-4xl font-bold text-center">
         Get in Touch
       </h1>
