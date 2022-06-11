@@ -5,17 +5,17 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div class="hero min-h-screen banner">
+    <div className="hero min-h-screen banner">
       <video autoplay loop id="myVideo">
         <source src={bg} type="video/mp4" />
       </video>
-      <div class="hero-content text-center">
-        <div class="max-w-lg">
-          <button class="btn hover:bg-none bg-transparent px-8 rounded-bl-3xl rounded-tr-3xl capitalize">
+      <div className="hero-content text-center">
+        <div className="max-w-lg">
+          <button className="btn hover:bg-none bg-transparent px-8 rounded-bl-3xl rounded-tr-3xl capitalize">
             Hello There!
           </button>
           <div className="py-10">
-            <h1 class="md:text-4xl text-xl font-bold">
+            <h1 className="md:text-4xl text-xl font-bold">
               <TypeAnimation
                 cursor={true}
                 sequence={[
@@ -34,7 +34,7 @@ const Banner = () => {
 
           <a
             href="https://drive.google.com/u/0/uc?id=1W2yNWz9CUFkGHB4vQMPvzk3h5DonSQmj&export=download"
-            class="btn btn-primary mt-10"
+            className="btn btn-primary mt-10"
           >
             resume download
           </a>

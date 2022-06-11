@@ -7,17 +7,17 @@ const Project = ({ project }) => {
     navigate(`/singleProject/${id}`);
   };
   return (
-    <div class="card lg:card-side bg-base-100 shadow-xl">
+    <div className="card lg:card-side bg-base-100 shadow-xl">
       <figure className="ProjectImg">
         <img src={project.img1} alt="Album" />
       </figure>
-      <div class="card-body">
-        <h2 class="card-title">{project.name}</h2>
+      <div className="card-body">
+        <h2 className="card-title">{project.name}</h2>
         <p>{project.short.split(".")[0]}</p>
-        <div class="card-actions justify-left">
+        <div className="card-actions justify-left">
           <button
             onClick={() => handleProject(project.id)}
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             Details
           </button>
